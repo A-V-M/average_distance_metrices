@@ -1,9 +1,5 @@
 function [compromise compromiseRDM tau_RV eigenVectors] = distatis_imp(D)
-%  D{1} = D_csl_vSpace_48;
-%  D{2} = Dcategories_RDM_48;
-%  
 
-%D = voxRDM;
 
 nmodels = length(D);
 if nmodels > 1; n = length(D{1});else n = length(D);end
